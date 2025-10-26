@@ -71,7 +71,11 @@ def main():
             is_running = False 
         elif wrong_guesses >= len(hangman_art):
             print("Unfortunately you lost")
-            is_running = False
+            print("Actually the answer was:") 
+            display_answer(answer)
+            is_running = False   
+            
 
 if __name__ == "__main__":
+
     main()
