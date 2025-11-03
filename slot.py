@@ -1,4 +1,4 @@
-# Pyhton slot machine 
+# Python slot machine  
 import random
 import time 
 
@@ -69,4 +69,5 @@ def main():
     print("-------------------------------------------")
 
 if __name__ == "__main__":
+
     main() 
